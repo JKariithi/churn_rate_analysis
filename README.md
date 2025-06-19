@@ -58,7 +58,7 @@ The dataset contains customer information from a telecom company, including demo
 ## How to Run 
 ### 1. Launch FastAPI Server
  ```bash
-uvicorn app.main:app --reload 
+uvicorn api:app --reload 
 ```
 ### 2. View the Documentation
 Swagger UI: http://127.0.0.1:8000/docs
